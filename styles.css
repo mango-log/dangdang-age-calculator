@@ -1,0 +1,66 @@
+body {
+  background-color: #ffda77;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #333333;
+}
+
+
+h1 {
+  font-family: 'Yeon Sung', cursive;
+  font-size: 5.5rem;
+  color: #ffa45b;
+  line-height: 1;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+strong {
+  font-size: 1.3rem;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  padding: 50px 20px;
+  text-align: left;
+  background-color: #fbf6f0;
+  border-radius: 50px;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 2rem;
+}
+
+.dog-name, .date-of-birth, .photos {
+  margin: 20px;
+}
+
+
+.q-title {
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 10%;
+  width: 40%;
+  vertical-align: top;
+}
+
+.input {
+  display: inline-block;
+  width: 45%;
+}
+
+
+.reset-submit {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  padding: 20px 0 0;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.8rem;
+}

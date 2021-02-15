@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>댕댕이🐶나이계산기</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Yeon+Sung&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <!--Section1. Title & Description Part-->
+  <section class="header">
+    <h1 class="title">댕댕이🐶<br>나이계산기</h1>
+    <p>
+      우리 아이의 정보를 입력하고, 과거의 사진들을 업로드 해보세요. <br>
+      그 때 당시 우리 댕댕이가 사람 나이로 몇 살이었는지 알 수 있습니다.<br>
+      <strong> 알고 보면, 사진 속 우리 아이가 다르게 보일거에요!</strong>
+    </p>
+  </section>
+
+
+  <!--Section2. Useer Input & submit Part-->
+  <section class="input-and-sumbmit">
+    <div class="container">
+      <form class="" action="index.html" method="get">
+        <div class="dog-name">
+          <div class="q-title">
+            댕댕이 이름
+          </div>
+          <div class="input">
+            <input type="text" name="dogname" value="">
+          </div>
+        </div>
+        <div class="date-of-birth">
+          <div class="q-title">
+            댕댕이 생년월일
+          </div>
+          <div class="input">
+            <input type="date" name="birthday" value="2020.1.1">
+          </div>
+        </div>
+        <div class="photos">
+          <div class="q-title">
+            댕댕이 사진 업로드
+          </div>
+          <div class="input">
+            <input class="attachment" type="file" id="dogimg1" name="">
+            <input class="attachment" type="file" id="dogimg2" name="">
+            <input class="attachment" type="file" id="dogimg3" name="">
+          </div>
+        </div>
+
+        <!--submit start-->
+        <div class="reset-submit">
+          <input type="reset" name="" value="다시 입력하기">
+          <input type="submit" name="" value="나이 계산하기">
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="copyright">
+      © 2021 댕댕이 나이계산기 Nadia LEE, All Rights Reserved.
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
